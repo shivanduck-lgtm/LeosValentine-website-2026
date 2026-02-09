@@ -59,7 +59,7 @@ questions: {
     first: {
         text: "Do you like me?",                   // First question
         yesBtn: "Yes",                             // Yes button text
-        noBtn: "You can only chose Yes",                               // No button text
+        noBtn: "No",                               // No button text
         secretAnswer: "I don't like you, I love you! 🌚"  // Hidden message
     },
     second: {
