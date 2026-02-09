@@ -45,13 +45,13 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
-pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+valentineName: "Leo"                    // Your Valentine's name
+pageTitle: "Will You Be My Valentine?🌚" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
-    bears: ['🧸', '🐻']                       // Bear emojis in background
+    hearts: ['❤️', '💙', '💚', '💜', '🩷'],  // Heart emojis in background
+    bears: ['🧸', '🐻', '🐻‍❄️']                       // Bear emojis in background
 }
 
 // Questions and Buttons
@@ -59,8 +59,8 @@ questions: {
     first: {
         text: "Do you like me?",                   // First question
         yesBtn: "Yes",                             // Yes button text
-        noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        noBtn: "You can only chose Yes",                               // No button text
+        secretAnswer: "I don't like you, I love you! 🌚"  // Hidden message
     },
     second: {
         text: "How much do you love me?",          // Second question
@@ -70,31 +70,31 @@ questions: {
     third: {
         text: "Will you be my Valentine...?",      // Final question
         yesBtn: "Yes!",                            // Yes button text
-        noBtn: "No"                                // No button text
+        noBtn: "YUH"                                // No button text
     }
 }
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
+    extreme: "WOOOOW You love me that much?? 🌚",  // Shows above 5000%
+    high: "I love you beary-much! 🐻‍❄️🐻🧸",              // Shows above 1000%
+    normal: "I love you! 🥰"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
+    title: "I love you so much Leo",     // Celebration title
     message: "Now come get your gift...",          // Celebration message
-    emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
+    emojis: "🩷💜💚💙❤️"                        // Celebration emojis
 }
 
 // Website Colors
 colors: {
-    backgroundStart: "#ffafbd",      // Background gradient start
-    backgroundEnd: "#ffc3a0",        // Background gradient end
-    buttonBackground: "#ff6b6b",     // Button color
-    buttonHover: "#ff8787",          // Button hover color
-    textColor: "#ff4757"            // Text color
+    backgroundStart: "#358C1D",      // Background gradient start
+    backgroundEnd: "#77FF54",        // Background gradient end
+    buttonBackground: "#CCFFBD",     // Button color
+    buttonHover: "#41543D",          // Button hover color
+    textColor: "#FAFAFA"            // Text color
 }
 
 // Animation Settings
@@ -105,15 +105,6 @@ animations: {
     heartExplosionSize: 1.5         // Final heart explosion size (1.2-2.0)
 }
 
-// Music Settings
-music: {
-    enabled: true, // Music feature is enabled
-    autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
-    startText: "🎵 Play Music", // Button text to start music
-    stopText: "🔇 Stop Music", // Button text to stop music
-    volume: 0.5 // Volume level (0.0 to 1.0)
-}
 ```
 
 ### 3. Adding Your Own Background Music 🎵
